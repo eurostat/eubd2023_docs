@@ -2,4 +2,4 @@ format: jb-book
 root: README
 chapters:
 - file: cloud-agnostic
-- file: cloud-accelarated
+- file: cloud-accelerated
