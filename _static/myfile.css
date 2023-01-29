@@ -50,5 +50,5 @@ summary.sd-summary-title {
 }
 
 details.sd-dropdown .sd-summary-title {
- font-weight:400; 
+ font-weight:400; !important;
 }
