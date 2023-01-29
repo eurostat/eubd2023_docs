@@ -31,3 +31,9 @@ h6:before {
     counter-increment: h6counter;
     content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) "." counter(h5counter) "." counter(h6counter) ".\0000a0\0000a0";
 }
+
+.sd-summary-title.sd-card-header {
+    font-weight: 400;
+}
+
+ 
