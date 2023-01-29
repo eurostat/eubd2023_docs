@@ -49,4 +49,6 @@ summary.sd-summary-title {
     font-weight:300;
 }
 
- 
+details.sd-dropdown .sd-summary-title {
+ font-weight:400; 
+}
