@@ -33,7 +33,20 @@ h6:before {
 }
 
 summary.sd-summary-title.sd-card-header {
-    font-weight: 300;
+    font-weight:300;
+}
+
+summary {
+    font-weight:300;
+}
+
+
+summary.sd-summary-title {
+    font-weight:300;
+}
+
+.sd-summary-title.sd-card-header {
+    font-weight:300;
 }
 
  
