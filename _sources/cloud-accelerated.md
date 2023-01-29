@@ -17,3 +17,4 @@
 
 ### Amazon RDS
 
+It is not used for the hackathon.
