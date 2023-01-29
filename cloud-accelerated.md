@@ -5,6 +5,10 @@
 
 ## Home
 
+```{dropdown} Here's my dropdown
+And here's my dropdown content
+```
+
 ## My Account
 
 ## Services 
