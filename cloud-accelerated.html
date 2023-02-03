@@ -343,6 +343,11 @@ title="Print to PDF"
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#limitations">
+   Limitations
+  </a>
+ </li>
 </ul>
 
     </nav>
@@ -404,6 +409,11 @@ title="Print to PDF"
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#limitations">
+   Limitations
+  </a>
+ </li>
 </ul>
 
                         </nav>
@@ -416,6 +426,12 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="cloud-accelerated-datalab">
 <h1>Cloud accelerated datalab<a class="headerlink" href="#cloud-accelerated-datalab" title="Permalink to this headline">#</a></h1>
+<p>Web service to easily managed the cloud-based resources provided to each team (i.e.:  S3 buckets, EC2 machines, …)
+Secondary service for the Hackathon</p>
+<p><img alt="Accelerated overview" src="_images/accelerated_overview.png" /></p>
+<p><em><strong>Usecase</strong></em></p>
+<p>Your team needs to leverage GPU power to run computationally expensive data processing.
+Your team needs  to get temporary AWS access credentials to have programmatic access to the S3 Buckets of the Hackathon.</p>
 <section id="login">
 <h2>Login<a class="headerlink" href="#login" title="Permalink to this headline">#</a></h2>
 </section>
@@ -449,6 +465,15 @@ Here’s my dropdown<div class="sd-summary-down docutils">
 <h3>Amazon RDS<a class="headerlink" href="#amazon-rds" title="Permalink to this headline">#</a></h3>
 <p>It is not used for the hackathon.</p>
 </section>
+</section>
+<section id="limitations">
+<h2>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Don’t update services’ version manually/from the UI</p></li>
+<li><p>This does not apply to second level software packages such as libraries etc.</p></li>
+<li><p>Users are limited when accessing AWS Management Console (only S3 Access)</p></li>
+<li><p>The user cannot launch an EC2 instance (or an RDS instance) directly from the portal. Only Start/Stop and access the applications running on the instances</p></li>
+</ul>
 </section>
 </section>
 
@@ -492,8 +517,6 @@ Here’s my dropdown<div class="sd-summary-down docutils">
     </div>
     <div class="footer-content row">
         <footer class="col footer"><p>
-  
-    By Eurostat<br/>
   
     <div class="extra_footer">
       <div>

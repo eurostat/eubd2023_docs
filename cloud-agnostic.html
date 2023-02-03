@@ -332,6 +332,11 @@ title="Print to PDF"
    My Data
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#limitations">
+   Limitations
+  </a>
+ </li>
 </ul>
 
     </nav>
@@ -381,6 +386,11 @@ title="Print to PDF"
    My Data
   </a>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#limitations">
+   Limitations
+  </a>
+ </li>
 </ul>
 
                         </nav>
@@ -393,6 +403,12 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="cloud-agnostic-datalab">
 <h1>Cloud agnostic datalab<a class="headerlink" href="#cloud-agnostic-datalab" title="Permalink to this headline">#</a></h1>
+<p>Web service to easily deploy and use containerized data science services (JupyterLab, Rstudio, Spark, Superset, PostgreSQL)
+Main service for the Hackathon</p>
+<p><img alt="Agnostic overview" src="_images/agnostic_overview.png" /></p>
+<p><em><strong>Usecase</strong></em></p>
+<p>Your team needs to read the data from S3 (with programmatic access) with Spark to do some processing.
+Your team needs  to create a specific data view, push it to PostgreSQL and create a custom dashboard on Superset.</p>
 <section id="login">
 <h2>Login<a class="headerlink" href="#login" title="Permalink to this headline">#</a></h2>
 </section>
@@ -410,6 +426,19 @@ title="Print to PDF"
 </section>
 <section id="my-data">
 <h2>My Data<a class="headerlink" href="#my-data" title="Permalink to this headline">#</a></h2>
+</section>
+<section id="limitations">
+<h2>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Deployment configuration cannot be changed after its launch</p></li>
+<li><p>Manually updating a secret automatically generated at the instance deployment</p></li>
+<li><p>Each service is provided with a specific service’s version</p></li>
+<li><p>Don’t update services’ version manually/from the UI</p></li>
+<li><p>No root access for JupyterLab and R-Studio</p></li>
+<li><p>Some libraries will need to be installed by the user</p></li>
+<li><p>Simultaneous access to shared services is limited</p></li>
+<li><p>The storage quota of the DSL is not validated against its limits</p></li>
+</ul>
 </section>
 </section>
 
@@ -460,8 +489,6 @@ title="Print to PDF"
     </div>
     <div class="footer-content row">
         <footer class="col footer"><p>
-  
-    By Eurostat<br/>
   
     <div class="extra_footer">
       <div>
