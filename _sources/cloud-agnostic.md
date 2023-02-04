@@ -5,7 +5,7 @@ Main service for the Hackathon
 
 ![Agnostic overview](img/agnostic_overview.png)
 
-***Usecase***
+***Use case***
 
 Your team needs to read the data from S3 (with programmatic access) with Spark to do some processing. 
 Your team needs  to create a specific data view, push it to PostgreSQL and create a custom dashboard on Superset.

@@ -6,7 +6,7 @@ Secondary service for the Hackathon
 
 ![Accelerated overview](img/accelerated_overview.png)
 
-***Usecase***
+***Use case***
 
 Your team needs to leverage GPU power to run computationally expensive data processing.
 Your team needs  to get temporary AWS access credentials to have programmatic access to the S3 Buckets of the Hackathon.
