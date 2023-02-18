@@ -1,18 +1,31 @@
 # Cloud accelerated datalab
 
-Web service to easily managed the cloud-based resources provided to each team (i.e.:  S3 buckets, EC2 machines, …)
-Secondary service for the Hackathon
-
+The Cloud Accelerated Datalab is web service to easily manage the cloud-based resources provided to each team like the S3 buckets, EC2 machines and IAM credentials. It is a secondary service for the hackathon
 
 ![Accelerated overview](img/accelerated_overview.png)
 
-***Use case***
+***Typical use case***
 
-Your team needs to leverage GPU power to run computationally expensive data processing.
-Your team needs  to get temporary AWS access credentials to have programmatic access to the S3 Buckets of the Hackathon.
+It can be used if the services in the Cloud Agnostic Datalab does not fulfill your needs. For example, you need to leverage GPU power to run computationally expensive data processing/ML tasks or you need root access to install a specific tool/software. Also this is the place where you can get temporary AWS access credentials to have programmatic access to the S3 Buckets of the hackathon.
 
+
+The The Cloud Accelerated Datalab is available under this address: [The address will be provided here on 2nd March 2023](cloud-accelerated.md)
 
 ## Login
+
+To access the Login page you have click on the **Log In** button
+
+![landing](img/cac_landing.png)
+
+For access to the service you have to click on the EC DataPlatform Azure AD.
+
+![Login screen](img/cac_login_highlighted.png)
+
+There you have to use the provided Azure AD login credentials which you received previously and activated with MFA.
+
+![Azure AD login](img/azure_ad.png)
+
+
 
 ## Home
 
