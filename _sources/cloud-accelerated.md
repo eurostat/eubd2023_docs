@@ -29,9 +29,12 @@ There you have to use the provided Azure AD login credentials which you received
 
 ## Home
 
-```{dropdown} Here's my dropdown
-And here's my dropdown content
-```
+After successful login you arrive at the home screen of the Cloud Accelerated Datalab.
+
+![Home](img/cac_home.png)
+
+Here you can find a link to this documentation and the terms of use of these services. ***Please read it at least once,*** because by using these services you agree those terms. 
+
 
 ## My Account
 
