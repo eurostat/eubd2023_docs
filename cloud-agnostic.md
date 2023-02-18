@@ -50,10 +50,22 @@ For the Airflow configuration you have to provide:
  - the name
  - if it is shared or private
  - the DSL of your group - there is only one possibility for your group
- - you can change the provided username and password
+ - you have to select the configuration - the **Default** gives you predefined resources, for the **Custom** you can change some of them if the default does not work for you
+ - you can change the provided username
  - you have to select the storage (NFS PVC name) - there is only one possibility for your group 
 ```
 
+
+```{dropdown} Apache Superset v1.0
+
+For the Airflow configuration you have to provide:
+ - the name
+ - if it is shared or private
+ - the DSL of your group - there is only one possibility for your group
+ - you have to select the configuration - the **Micro** gives you predefined resources, for the **Custom** you can change some of them if the default does not work for you
+ - you have to provide an admin username 
+ - you have to provide an admin email, first name and last name 
+```
 ## My Services
 
 
