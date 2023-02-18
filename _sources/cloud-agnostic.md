@@ -115,6 +115,15 @@ For the RStudio configuration you have to provide:
  - you have to select the storage (NFS PVC name) - there is only one possibility for your group 
 ``` 
 
+```{dropdown} Apache Spark v3.2.1
+
+For the Spark configuration you have to provide:
+ - the name
+ - if it is shared or private
+ - the DSL of your group - there is only one possibility for your group
+ - you have to select the configuration - the **Default** gives you predefined resources, for the **Custom** you can change some of them if the default does not work for you
+ - you have to provide a username
+```
 ## My Services
 
 
