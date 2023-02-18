@@ -53,14 +53,14 @@ Under the **Amazon EC2** you can start and stop a Linux server or a Windows serv
 
 ```{dropdown} Linux server
 
-It is a Linux server with a data science image on it. 
+It is a Linux server with a data science image on it. It is a [g5.4xlarge](https://instances.vantage.sh/aws/ec2/g5.4xlarge) instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. 
 
 
 ```
 
 ```{dropdown} Windows server
 
-It is a Windows server without any pre-installed software. 
+It is a Windows server without any pre-installed software. It is a [r5.8xlarge](https://instances.vantage.sh/aws/ec2/r5.8xlarge) instance with 32 cores and 256 GB RAM. 
 ```
 
 
