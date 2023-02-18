@@ -124,10 +124,19 @@ For the Spark configuration you have to provide:
  - you have to select the configuration - the **Default** gives you predefined resources, for the **Custom** you can change some of them if the default does not work for you
  - you have to provide a username
 ```
+
 ## My Services
 
+Under the **My Services** you will find the list of services you launched. 
+
+![Catalogue](img/cag_services2.png)
+
+After the launch of a service it will have a status *PENDING*. A few minutes later refreshing the page the status should change to *ACTIVE* and the link to **Open** (or **Copy** for PostgreSQL) should show up in the last column. 
+Clicking on the **Open** button the service will open in a new website.  
 
 ## My Data
+
+
 
 ## Limitations
 
