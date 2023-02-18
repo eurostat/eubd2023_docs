@@ -579,14 +579,16 @@ Here you can also <strong>Terminate</strong> services, and <em><strong>please te
 </section>
 <section id="limitations">
 <h2>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">#</a></h2>
+<p>The Cloud Agnostic Datalab has the following restrictions:</p>
 <ul class="simple">
-<li><p>Deployment configuration cannot be changed after its launch</p></li>
-<li><p>Manually updating a secret automatically generated at the instance deployment</p></li>
+<li><p>The deployment configuration cannot be changed after its launch</p></li>
+<li><p>It is not possible to manually update an automatically generated secret at the instance deployment</p></li>
+<li><p>Later changing the secret under <strong>My Data</strong> will not change the password for the launched service</p></li>
 <li><p>Each service is provided with a specific service’s version</p></li>
 <li><p>Don’t update services’ version manually/from the UI</p></li>
-<li><p>No root access for JupyterLab and R-Studio</p></li>
-<li><p>Some libraries will need to be installed by the user</p></li>
-<li><p>Simultaneous access to shared services is limited</p></li>
+<li><p>No root access for JupyterLab and RStudio</p></li>
+<li><p>Not all libraries are installed, some libraries can be installed by the user if it does not require root access</p></li>
+<li><p>Simultaneous access to the shared service of RStudio is limited, only one person can be connected to it</p></li>
 <li><p>The storage quota of the DSL is not validated against its limits</p></li>
 </ul>
 </section>
