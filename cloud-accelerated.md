@@ -39,11 +39,31 @@ Under the **My Account** you find your Azure AD identifier, your name, your emai
 
 The sub menu *Cost Reports* is not used during the hackathon.
 
-![Account](img/cag_account.png)
+![Account](img/cac_account.png)
 
 ## Services 
 
+Under the **Services** you find the list of AWS services you can manage from the Cloud Accelerated Portal. 
+
 ### Amazon EC2
+
+Under the **Amazon EC2** you can start and stop a Linux server or a Windows server with admin rights.
+
+![EC2](img/cac_ec2.png)
+
+```{dropdown} Linux server
+
+It is a Linux server with a data science image on it. 
+
+
+```
+
+```{dropdown} Windows server
+
+It is a Windows server without any pre-installed software. 
+```
+
+
 
 ### Amazon S3
 
