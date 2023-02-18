@@ -25,8 +25,6 @@ There you have to use the provided Azure AD login credentials which you received
 
 ![Azure AD login](img/azure_ad.png)
 
-
-
 ## Home
 
 After successful login you arrive at the home screen of the Cloud Accelerated Datalab.
@@ -35,8 +33,13 @@ After successful login you arrive at the home screen of the Cloud Accelerated Da
 
 Here you can find a link to this documentation and the terms of use of these services. ***Please read it at least once,*** because by using these services you agree those terms. 
 
-
 ## My Account
+
+Under the **My Account** you find your Azure AD identifier, your name, your email which is used in the MS Teams group and where you receive the information about your Azure AD account activation. In addition, you will find here the of your group.
+
+The sub menu *Cost Reports* is not used during the hackathon.
+
+![Account](img/cag_account.png)
 
 ## Services 
 
