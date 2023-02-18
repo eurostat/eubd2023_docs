@@ -55,14 +55,13 @@ For the Airflow configuration you have to provide:
  - you have to select the storage (NFS PVC name) - there is only one possibility for your group 
 ```
 
-
 ```{dropdown} Apache Superset v1.0
 
 For the Superset configuration you have to provide:
  - the name
  - if it is shared or private
  - the DSL of your group - there is only one possibility for your group
- - you have to select the configuration - the *Micro* gives you predefined resources, for the *Custom* you can change some of them if the default does not work for you
+ - you have to select the configuration - the **Micro** gives you predefined resources, for the **Custom** you can change some of them if the default does not work for you
  - you have to provide an admin username 
  - you have to provide an admin email, first name and last name 
 ```
@@ -83,10 +82,9 @@ For the Jupyterlab configuration you have to provide:
  - the name
  - if it is shared or private
  - the DSL of your group - there is only one possibility for your group
- - you have to select the configuration - the *Micro* gives you predefined resources, for the *Custom* you can change some of them if the default does not work for you
+ - you have to select the configuration - the **Micro** gives you predefined resources, for the **Custom** you can change some of them if the default does not work for you
  - you have to select the storage (NFS PVC name) - there is only one possibility for your group 
 ```
-
 
 ```{dropdown} PgAdmin v6.8
 
@@ -97,6 +95,25 @@ For the PgAdmin configuration you have to provide:
  - you have to select the configuration - the **Default** gives you predefined resources
  - you have to provide an admin email 
 ```
+
+```{dropdown} PostgreSQL v14.2.0
+
+For the PostgreSQL configuration you have to provide:
+ - the name
+ - if it is shared or private
+ - the DSL of your group - there is only one possibility for your group
+ - you have to select the configuration - the **Micro** gives you predefined resources
+```
+
+```{dropdown} RStudio v4.2.2
+
+For the RStudio configuration you have to provide:
+ - the name
+ - if it is shared or private
+ - the DSL of your group - there is only one possibility for your group
+ - you have to select the configuration - the **Custom** allows you to change some of the resources if the default values does not work for you
+ - you have to select the storage (NFS PVC name) - there is only one possibility for your group 
+``` 
 
 ## My Services
 
