@@ -51,21 +51,34 @@ Under the **Amazon EC2** you can start and stop a Linux server or a Windows serv
 
 ![EC2](img/cac_ec2.png)
 
+The status can be *stopped, running, pending or stopping*. 
+
+![EC2_pending](img/cac_ec2_pending.png)
+![EC2_stopping](img/cac_ec2_stopping.png)
+
+
+
 ```{dropdown} Linux server
 
-It is a Linux server with a data science image on it. It is a [g5.4xlarge](https://instances.vantage.sh/aws/ec2/g5.4xlarge) instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. 
+![EC2_linux](img/cac_ec2_linux.png)
+
+It is a [g5.4xlarge](https://instances.vantage.sh/aws/ec2/g5.4xlarge) instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. It is an Ubuntu 20.04.4 LTS Linux server with a data science image on it that is accessible under the **Open** button when it is blue.
+
 The data science image contains:
  - an RStudio server with R 4.2.0 and the following packages: *base, boot, class, cluster, codetools, compiler, datasets, foreign, graphics, grDevices, grid, KernSmooth, lattice, MASS, Matrix, methods, mgcv, nlme, nnet, parallel, rpart, spatial, splines, stats, stats4, survival, tcltk, tools, utils*  
  - Jupyterlab 3.4.2 with Python 3.8.10 with the following packages: *apturl, argcomplete, attrs, Automat, blinker, boto3, botocore, certifi, chardet, Click, cloud-init, colorama, command-not-found, configobj, constantly, crit, cryptography, dbus-python, defer, distro, distro-info=0.23ubuntu1, dnspython, ec2-hibinit-agent, entrypoints, git-remote-codecommit, gpg=1.13.1-unknown, hibagent, httplib2, hyperlink, idna, importlib-metadata, incremental, Jinja2, jmespath, jsonpatch, jsonpointer, jsonschema, keyring, language-selector, launchpadlib, lazr.restfulclient, lazr.uri, Markdown, MarkupSafe, mate-hud, mate-menu, mate-tweak, more-itertools, netifaces, oauthlib, olefile, onboard, packaging, pexpect, Pillow, pipx, protobuf, psutil, pyasn1, pyasn1-modules, pycairo, pycrypto, Pygments, PyGObject, PyHamcrest, PyJWT, pymacaroons, PyNaCl, pyOpenSSL, pyparsing, pyrsistent, pyserial, python-apt, python-dateutil, python-debian=0.1.36ubuntu1, python-xlib, pyxdg, PyYAML, requests, requests-unixsocket, s3transfer, SecretStorage, service-identity, setproctitle, simplejson, six, sos, ssh-import-id, systemd-python, Twisted, ubuntu-advantage-tools, ubuntu-drivers-common, ufw, unattended-upgrades, urllib3, userpath, wadllib, xkit, zipp, zope.interface*
  - terminal access
  - Ubuntu MATE 1.24.0 desktop 
 
+The access credentials are the the login name of the Azure AD email and password.
 
 ```
 
 ```{dropdown} Windows server
 
-It is a Windows server without any pre-installed software. It is a [r5.8xlarge](https://instances.vantage.sh/aws/ec2/r5.8xlarge) instance with 32 cores and 256 GB RAM. 
+![EC2_windows](img/cac_ec2_windows.png)
+It is a [r5.8xlarge](https://instances.vantage.sh/aws/ec2/r5.8xlarge) instance with 32 cores and 256 GB RAM. It is a Windows 2022 server without any pre-installed software. 
+It is accessible through Remote Desktop (RDP) connection. There is no direct **Open** link to it like for the Linux server.  If you click on the "Instance ID" you can find the address of the server. The access credentials are the full Azure AD email and password.    
 ```
 
 

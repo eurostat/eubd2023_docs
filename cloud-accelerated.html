@@ -459,6 +459,9 @@ title="Print to PDF"
 <h3>Amazon EC2<a class="headerlink" href="#amazon-ec2" title="Permalink to this headline">#</a></h3>
 <p>Under the <strong>Amazon EC2</strong> you can start and stop a Linux server or a Windows server with admin rights.</p>
 <p><img alt="EC2" src="_images/cac_ec2.png" /></p>
+<p>The status can be <em>stopped, running, pending or stopping</em>.</p>
+<p><img alt="EC2_pending" src="_images/cac_ec2_pending.png" />
+<img alt="EC2_stopping" src="_images/cac_ec2_stopping.png" /></p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 Linux server<div class="sd-summary-down docutils">
@@ -466,14 +469,16 @@ Linux server<div class="sd-summary-down docutils">
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">It is a Linux server with a data science image on it. It is a <a class="reference external" href="https://instances.vantage.sh/aws/ec2/g5.4xlarge">g5.4xlarge</a> instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU.
-The data science image contains:</p>
+<p class="sd-card-text"><img alt="EC2_linux" src="_images/cac_ec2_linux.png" /></p>
+<p class="sd-card-text">It is a <a class="reference external" href="https://instances.vantage.sh/aws/ec2/g5.4xlarge">g5.4xlarge</a> instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. It is an Ubuntu 20.04.4 LTS Linux server with a data science image on it that is accessible under the <strong>Open</strong> button when it is blue.</p>
+<p class="sd-card-text">The data science image contains:</p>
 <ul class="simple">
 <li><p class="sd-card-text">an RStudio server with R 4.2.0 and the following packages: <em>base, boot, class, cluster, codetools, compiler, datasets, foreign, graphics, grDevices, grid, KernSmooth, lattice, MASS, Matrix, methods, mgcv, nlme, nnet, parallel, rpart, spatial, splines, stats, stats4, survival, tcltk, tools, utils</em></p></li>
 <li><p class="sd-card-text">Jupyterlab 3.4.2 with Python 3.8.10 with the following packages: <em>apturl, argcomplete, attrs, Automat, blinker, boto3, botocore, certifi, chardet, Click, cloud-init, colorama, command-not-found, configobj, constantly, crit, cryptography, dbus-python, defer, distro, distro-info=0.23ubuntu1, dnspython, ec2-hibinit-agent, entrypoints, git-remote-codecommit, gpg=1.13.1-unknown, hibagent, httplib2, hyperlink, idna, importlib-metadata, incremental, Jinja2, jmespath, jsonpatch, jsonpointer, jsonschema, keyring, language-selector, launchpadlib, lazr.restfulclient, lazr.uri, Markdown, MarkupSafe, mate-hud, mate-menu, mate-tweak, more-itertools, netifaces, oauthlib, olefile, onboard, packaging, pexpect, Pillow, pipx, protobuf, psutil, pyasn1, pyasn1-modules, pycairo, pycrypto, Pygments, PyGObject, PyHamcrest, PyJWT, pymacaroons, PyNaCl, pyOpenSSL, pyparsing, pyrsistent, pyserial, python-apt, python-dateutil, python-debian=0.1.36ubuntu1, python-xlib, pyxdg, PyYAML, requests, requests-unixsocket, s3transfer, SecretStorage, service-identity, setproctitle, simplejson, six, sos, ssh-import-id, systemd-python, Twisted, ubuntu-advantage-tools, ubuntu-drivers-common, ufw, unattended-upgrades, urllib3, userpath, wadllib, xkit, zipp, zope.interface</em></p></li>
 <li><p class="sd-card-text">terminal access</p></li>
 <li><p class="sd-card-text">Ubuntu MATE 1.24.0 desktop</p></li>
 </ul>
+<p class="sd-card-text">The access credentials are the the login name of the Azure AD email and password.</p>
 </div>
 </details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
@@ -482,7 +487,9 @@ Windows server<div class="sd-summary-down docutils">
 <div class="sd-summary-up docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">It is a Windows server without any pre-installed software. It is a <a class="reference external" href="https://instances.vantage.sh/aws/ec2/r5.8xlarge">r5.8xlarge</a> instance with 32 cores and 256 GB RAM.</p>
+<p class="sd-card-text"><img alt="EC2_windows" src="_images/cac_ec2_windows.png" />
+It is a <a class="reference external" href="https://instances.vantage.sh/aws/ec2/r5.8xlarge">r5.8xlarge</a> instance with 32 cores and 256 GB RAM. It is a Windows 2022 server without any pre-installed software.
+It is accessible through Remote Desktop (RDP) connection. There is no direct <strong>Open</strong> link to it like for the Linux server.  If you click on the “Instance ID” you can find the address of the server. The access credentials are the full Azure AD email and password.</p>
 </div>
 </details></section>
 <section id="amazon-s3">
