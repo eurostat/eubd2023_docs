@@ -152,11 +152,14 @@ You can add also add additional secrets that you can use in the lauched services
 
 ## Limitations
 
- - Deployment configuration cannot be changed after its launch
- - Manually updating a secret automatically generated at the instance deployment
+The Cloud Agnostic Datalab has the following restrictions:
+
+ - The deployment configuration cannot be changed after its launch
+ - It is not possible to manually update an automatically generated secret at the instance deployment
+ - Later changing the secret under **My Data** will not change the password for the launched service
  - Each service is provided with a specific service’s version
  - Don’t update services’ version manually/from the UI
- - No root access for JupyterLab and R-Studio
- - Some libraries will need to be installed by the user
- - Simultaneous access to shared services is limited
+ - No root access for JupyterLab and RStudio
+ - Not all libraries are installed, some libraries can be installed by the user if it does not require root access
+ - Simultaneous access to the shared service of RStudio is limited, only one person can be connected to it
  - The storage quota of the DSL is not validated against its limits
