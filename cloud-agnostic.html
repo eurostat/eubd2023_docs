@@ -403,24 +403,51 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="cloud-agnostic-datalab">
 <h1>Cloud agnostic datalab<a class="headerlink" href="#cloud-agnostic-datalab" title="Permalink to this headline">#</a></h1>
-<p>Web service to easily deploy and use containerized data science services (JupyterLab, Rstudio, Spark, Superset, PostgreSQL)
-Main service for the Hackathon</p>
+<p>The Cloud Agnostic Datalab is a web service to easily deploy and use containerized data science services like JupyterLab, Rstudio, Spark, Superset and PostgreSQL. It is the main service provided for the hackathon.</p>
 <p><img alt="Agnostic overview" src="_images/agnostic_overview.png" /></p>
-<p><em><strong>Use case</strong></em></p>
-<p>Your team needs to read the data from S3 (with programmatic access) with Spark to do some processing.
-Your team needs  to create a specific data view, push it to PostgreSQL and create a custom dashboard on Superset.</p>
+<p><em><strong>Typical use case</strong></em></p>
+<p>It can be used if you want to read data from S3 buckets (with programmatic access) and do some data processing with R/Python/Spark and finally you can create a specific data view, push it to PostgreSQL database and create a custom dashboard with Superset.</p>
+<p>The The Cloud Agnostic Datalab is available under this address: <a class="reference internal" href="#"><span class="doc std std-doc">The address will be provided here on 2nd March</span></a></p>
 <section id="login">
 <h2>Login<a class="headerlink" href="#login" title="Permalink to this headline">#</a></h2>
+<p>For access to the service you have to click on the EC DataPlatform Azure AD.</p>
+<p><img alt="Login screen" src="_images/cag_login_highlighted.png" /></p>
+<p>There you have to use the provided Azure AD login credentials which you received previously and activated with MFA.</p>
+<p><img alt="Azure AD login" src="_images/azure_ad.png" /></p>
 </section>
 <section id="home">
 <h2>Home<a class="headerlink" href="#home" title="Permalink to this headline">#</a></h2>
+<p>After successful login you arrive at the home screen of the Cloud Agnostic Datalab.</p>
+<p><img alt="Home" src="_images/cag_home.png" /></p>
+<p>Here you can find a link to this documentation and the terms of use of these services. <em><strong>Please read it at least once,</strong></em> because by using these services you agree those terms.</p>
 </section>
 <section id="my-account">
 <h2>My Account<a class="headerlink" href="#my-account" title="Permalink to this headline">#</a></h2>
+<p>Under the <strong>My Account</strong> you find your Azure AD identifier, your name, your email which is used in the MS Teams group and where you receive the information about your Azure AD account activation. In addition, you will find here the use of resources for your Data Science Lab (DSL) available for your group.</p>
+<p><img alt="Account" src="_images/cag_account.png" /></p>
 </section>
 <section id="service-catalog">
 <h2>Service Catalog<a class="headerlink" href="#service-catalog" title="Permalink to this headline">#</a></h2>
-</section>
+<p>Under the <strong>Service Catalog</strong> you find the available services you can launch.</p>
+<p><img alt="Catalogue" src="_images/cag_catalogue.png" /></p>
+<p>You can choose from the following services:</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+Apache Airflow v1.6.0<div class="sd-summary-down docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-down" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 8.72a.75.75 0 000 1.06l6.25 6.25a.75.75 0 001.06 0l6.25-6.25a.75.75 0 00-1.06-1.06L12 14.44 6.28 8.72a.75.75 0 00-1.06 0z"></path></svg></div>
+<div class="sd-summary-up docutils">
+<svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
+</summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">For the Airflow configuration you have to provide:</p>
+<ul class="simple">
+<li><p class="sd-card-text">the name</p></li>
+<li><p class="sd-card-text">if it is shared or private</p></li>
+<li><p class="sd-card-text">the DSL of your group - there is only one possibility for your group</p></li>
+<li><p class="sd-card-text">you can change the provided username and password</p></li>
+<li><p class="sd-card-text">you have to select the storage (NFS PVC name) - there is only one possibility for your group</p></li>
+</ul>
+</div>
+</details></section>
 <section id="my-services">
 <h2>My Services<a class="headerlink" href="#my-services" title="Permalink to this headline">#</a></h2>
 </section>

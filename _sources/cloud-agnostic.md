@@ -1,23 +1,58 @@
 # Cloud agnostic datalab
 
-Web service to easily deploy and use containerized data science services (JupyterLab, Rstudio, Spark, Superset, PostgreSQL)
-Main service for the Hackathon
+The Cloud Agnostic Datalab is a web service to easily deploy and use containerized data science services like JupyterLab, Rstudio, Spark, Superset and PostgreSQL. It is the main service provided for the hackathon.
 
 ![Agnostic overview](img/agnostic_overview.png)
 
-***Use case***
+***Typical use case***
 
-Your team needs to read the data from S3 (with programmatic access) with Spark to do some processing. 
-Your team needs  to create a specific data view, push it to PostgreSQL and create a custom dashboard on Superset.
+It can be used if you want to read data from S3 buckets (with programmatic access) and do some data processing with R/Python/Spark and finally you can create a specific data view, push it to PostgreSQL database and create a custom dashboard with Superset.
 
+The The Cloud Agnostic Datalab is available under this address: [The address will be provided here on 2nd March](cloud-agnostic.md)
 
 ## Login
 
+For access to the service you have to click on the EC DataPlatform Azure AD.
+
+![Login screen](img/cag_login_highlighted.png)
+
+There you have to use the provided Azure AD login credentials which you received previously and activated with MFA.
+
+![Azure AD login](img/azure_ad.png)
+
+
 ## Home
+
+After successful login you arrive at the home screen of the Cloud Agnostic Datalab.
+
+![Home](img/cag_home.png)
+
+Here you can find a link to this documentation and the terms of use of these services. ***Please read it at least once,*** because by using these services you agree those terms. 
+
 
 ## My Account
 
+Under the **My Account** you find your Azure AD identifier, your name, your email which is used in the MS Teams group and where you receive the information about your Azure AD account activation. In addition, you will find here the use of resources for your Data Science Lab (DSL) available for your group. 
+
+![Account](img/cag_account.png)
+
 ## Service Catalog
+
+Under the **Service Catalog** you find the available services you can launch. 
+
+![Catalogue](img/cag_catalogue.png)
+
+You can choose from the following services:
+
+```{dropdown} Apache Airflow v1.6.0
+
+For the Airflow configuration you have to provide:
+ - the name
+ - if it is shared or private
+ - the DSL of your group - there is only one possibility for your group
+ - you can change the provided username and password
+ - you have to select the storage (NFS PVC name) - there is only one possibility for your group 
+```
 
 ## My Services
 
