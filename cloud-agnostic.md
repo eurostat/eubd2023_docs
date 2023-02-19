@@ -146,7 +146,7 @@ By clicking on the line of a service you can view, edit or copy to the clipboard
 
 ![Secret](img/cag_secret.png)
 
-You can add also add additional secrets that you can use in the lauched services.
+You can add also add additional secrets that you can use in the launched services.
 
 
 
