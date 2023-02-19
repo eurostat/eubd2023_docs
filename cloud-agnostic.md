@@ -1,6 +1,6 @@
 # Cloud agnostic datalab
 
-The Cloud Agnostic Datalab is a web service to easily deploy and use containerized data science services like JupyterLab, Rstudio, Spark, Superset and PostgreSQL. It is the main service provided for the hackathon.
+The Cloud Agnostic Datalab is a web service to easily deploy and use containerized data science services like JupyterLab, Rstudio, Spark, Superset and PostgreSQL. It is ***the main service*** provided for the hackathon.
 
 ![Agnostic overview](img/agnostic_overview.png)
 

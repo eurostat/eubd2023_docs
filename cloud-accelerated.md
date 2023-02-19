@@ -1,6 +1,6 @@
 # Cloud accelerated datalab
 
-The Cloud Accelerated Datalab is web service to easily manage the cloud-based resources provided to each team like the S3 buckets, EC2 machines and IAM credentials. It is a secondary service for the hackathon
+The Cloud Accelerated Datalab is web service to easily manage the cloud-based resources provided to each team like the S3 buckets, EC2 machines and IAM credentials. It is ***a secondary service*** for the hackathon
 
 ![Accelerated overview](img/accelerated_overview.png)
 
