@@ -47,7 +47,7 @@ Under the **Services** you find the list of AWS services you can manage from the
 
 ### Amazon EC2
 
-Under the **Amazon EC2** you can start and stop a Linux server or a Windows server with admin rights.
+Under the **Amazon EC2** you can start and stop a Linux server or a Windows server with root access/administrator rights.
 
 ![EC2](img/cac_ec2.png)
 
@@ -83,11 +83,15 @@ It is accessible through Remote Desktop (RDP) connection. There is no direct **O
 
 ### Amazon S3
 
-Under the **Amazon S3** you have the name of the buckets avaialble to you. There is a read only bucket with a source data and a bucket with the name of your team where you can save intermediate results. The buckets are accessible from both environments (Cloud Agnostic Datalab and Cloud Accelerated Datalab). There is also a link to open the AWS console to view the S3 buckets, but **in the console no actions can be done**. 
+Under the **Amazon S3** you have the name of the buckets available to you. There is a read only bucket with a source data and a bucket with the name of your team where you can save intermediate results. The buckets are accessible from both environments (Cloud Agnostic Datalab and Cloud Accelerated Datalab). There is also a link to open the AWS console to view the S3 buckets, but **in the console no actions can be done**. 
 
 ![S3](img/cac_s3.png)
 
 ### Amazon IAM
+
+Under the **Amazon IAM** you can download the already predefined AWS IAM roles for programmatic access. Also here can temporary credentials generated to the programmatic access for S3. 
+
+![IAM](img/cac_iam.png)
 
 ### Amazon RDS
 
@@ -95,8 +99,12 @@ It is not used for the hackathon.
 
 ## Limitations
 
+The Cloud Accelerated Datalab has the following restrictions:
+
+ - The Linux and Windows server has seperate disks of 1TB and not accessible from the Cloud Agnostic Datalab
+ - The EFS storage of the Cloud Agnostic Datalab is not accessible from the Cloud Accelerated Datalab
  - Don’t update services’ version manually/from the UI
  - This does not apply to second level software packages such as libraries etc.
- - Users are limited when accessing AWS Management Console (only S3 Access)
- - The user cannot launch an EC2 instance (or an RDS instance) directly from the portal. Only Start/Stop and access the applications running on the instances
+ - Users are limited when accessing AWS Management Console - only S3 view access and no actions possible
+ - The user cannot launch an EC2 instance (or an RDS instance) directly from the portal, only Start/Stop and access the applications running on the instances
 

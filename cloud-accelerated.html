@@ -457,7 +457,7 @@ title="Print to PDF"
 <p>Under the <strong>Services</strong> you find the list of AWS services you can manage from the Cloud Accelerated Portal.</p>
 <section id="amazon-ec2">
 <h3>Amazon EC2<a class="headerlink" href="#amazon-ec2" title="Permalink to this headline">#</a></h3>
-<p>Under the <strong>Amazon EC2</strong> you can start and stop a Linux server or a Windows server with admin rights.</p>
+<p>Under the <strong>Amazon EC2</strong> you can start and stop a Linux server or a Windows server with root access/administrator rights.</p>
 <p><img alt="EC2" src="_images/cac_ec2.png" /></p>
 <p>The status can be <em>stopped, pending, running</em> or <em>stopping</em>.</p>
 <p><img alt="EC2_pending" src="_images/cac_ec2_pending.png" />
@@ -494,11 +494,13 @@ It is accessible through Remote Desktop (RDP) connection. There is no direct <st
 </details></section>
 <section id="amazon-s3">
 <h3>Amazon S3<a class="headerlink" href="#amazon-s3" title="Permalink to this headline">#</a></h3>
-<p>Under the <strong>Amazon S3</strong> you have the name of the buckets avaialble to you. There is a read only bucket with a source data and a bucket with the name of your team where you can save intermediate results. The buckets are accessible from both environments (Cloud Agnostic Datalab and Cloud Accelerated Datalab). There is also a link to open the AWS console to view the S3 buckets, but <strong>in the console no actions can be done</strong>.</p>
+<p>Under the <strong>Amazon S3</strong> you have the name of the buckets available to you. There is a read only bucket with a source data and a bucket with the name of your team where you can save intermediate results. The buckets are accessible from both environments (Cloud Agnostic Datalab and Cloud Accelerated Datalab). There is also a link to open the AWS console to view the S3 buckets, but <strong>in the console no actions can be done</strong>.</p>
 <p><img alt="S3" src="_images/cac_s3.png" /></p>
 </section>
 <section id="amazon-iam">
 <h3>Amazon IAM<a class="headerlink" href="#amazon-iam" title="Permalink to this headline">#</a></h3>
+<p>Under the <strong>Amazon IAM</strong> you can download the already predefined AWS IAM roles for programmatic access. Also here can temporary credentials generated to the programmatic access for S3.</p>
+<p><img alt="IAM" src="_images/cac_iam.png" /></p>
 </section>
 <section id="amazon-rds">
 <h3>Amazon RDS<a class="headerlink" href="#amazon-rds" title="Permalink to this headline">#</a></h3>
@@ -507,11 +509,14 @@ It is accessible through Remote Desktop (RDP) connection. There is no direct <st
 </section>
 <section id="limitations">
 <h2>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">#</a></h2>
+<p>The Cloud Accelerated Datalab has the following restrictions:</p>
 <ul class="simple">
+<li><p>The Linux and Windows server has seperate disks of 1TB and not accessible from the Cloud Agnostic Datalab</p></li>
+<li><p>The EFS storage of the Cloud Agnostic Datalab is not accessible from the Cloud Accelerated Datalab</p></li>
 <li><p>Don’t update services’ version manually/from the UI</p></li>
 <li><p>This does not apply to second level software packages such as libraries etc.</p></li>
-<li><p>Users are limited when accessing AWS Management Console (only S3 Access)</p></li>
-<li><p>The user cannot launch an EC2 instance (or an RDS instance) directly from the portal. Only Start/Stop and access the applications running on the instances</p></li>
+<li><p>Users are limited when accessing AWS Management Console - only S3 view access and no actions possible</p></li>
+<li><p>The user cannot launch an EC2 instance (or an RDS instance) directly from the portal, only Start/Stop and access the applications running on the instances</p></li>
 </ul>
 </section>
 </section>
