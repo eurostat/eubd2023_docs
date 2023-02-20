@@ -140,7 +140,7 @@ Under the **My Services** you will find the list of services you launched.
 ![Services](img/cag_services2.png)
 
 After the launch of a service it will have a status *PENDING*. A few minutes later refreshing the page the status should change to *ACTIVE* and the link to **Open** (or **Copy** for PostgreSQL) should show up in the last column. 
-Clicking on the **Open** button the service will open in a new website.  
+Clicking on the **Open** button the webseite of the service will open in a new window.  
 Here you can also **Terminate** services, and ***please terminate those services which are not used*** to save energy and allow your teammate to use them if necessary. 
 
 
