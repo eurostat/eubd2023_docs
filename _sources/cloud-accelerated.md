@@ -58,7 +58,7 @@ The status can be *stopped, pending, running* or *stopping*.
 
 
 
-```{dropdown} Linux server
+ ```{dropdown} Linux server
 
 ![EC2_linux](img/cac_ec2_linux.png)
 
@@ -72,14 +72,14 @@ The data science image contains:
 
 The access credentials are the the login name of the Azure AD email and password.
 
-```
+ ```
 
-```{dropdown} Windows server
+ ```{dropdown} Windows server
 
 ![EC2_windows](img/cac_ec2_windows.png)
 It is a [r5.8xlarge](https://instances.vantage.sh/aws/ec2/r5.8xlarge) instance with 32 cores and 256 GB RAM. It is a Windows 2022 server without any pre-installed software. 
 It is accessible through Remote Desktop (RDP) connection. There is no direct **Open** link to it like for the Linux server.  If you click on the "Instance ID" you can find the address of the server. The access credentials are the full Azure AD email and password.    
-```
+ ```
 
 ### Amazon S3
 
