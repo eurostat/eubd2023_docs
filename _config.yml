@@ -16,6 +16,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  favicon: favicon.ico
   extra_footer : |
       <div>
       <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0/88x31.png"></a>
