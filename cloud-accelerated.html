@@ -471,7 +471,13 @@ Linux server<div class="sd-summary-down docutils">
 <svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-up" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.78 15.28a.75.75 0 000-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25a.75.75 0 101.06 1.06L12 9.56l5.72 5.72a.75.75 0 001.06 0z"></path></svg></div>
 </summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text"><img alt="EC2_linux" src="_images/cac_ec2_linux.png" /></p>
-<p class="sd-card-text">It is a <a class="reference external" href="https://instances.vantage.sh/aws/ec2/g5.4xlarge">g5.4xlarge</a> instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. It is an Ubuntu 20.04.4 LTS Linux server with a data science image on it that is accessible under the <strong>Open</strong> button when it is blue.</p>
+<p class="sd-card-text">It is a <a class="reference external" href="https://instances.vantage.sh/aws/ec2/g5.4xlarge">g5.4xlarge</a> instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. It is an Ubuntu 20.04.4 LTS Linux server with a data science image on it and it is accessible with 3 options:</p>
+<ol class="simple">
+<li><p class="sd-card-text">The simplest way is to click on the <strong>Open</strong> button when it is blue and it open a web intarface in a new window.</p></li>
+<li><p class="sd-card-text">Through <a class="reference external" href="https://ec-europa.github.io/digit-dataplatform/user_documentation/bastion_host_connection/">bastion host</a></p></li>
+<li><p class="sd-card-text">Through <a class="reference external" href="https://ec-europa.github.io/digit-dataplatform/user_documentation/aws_client_vpn/">AWS client VPN</a></p></li>
+</ol>
+<p class="sd-card-text">If you want to use option 2 or 3 you can find the internal address of the server under the link of the <strong>Instance ID</strong>.</p>
 <p class="sd-card-text">The data science image contains:</p>
 <ul class="simple">
 <li><p class="sd-card-text">an RStudio server with R 4.2.0 and the following packages: <em>base, boot, class, cluster, codetools, compiler, datasets, foreign, graphics, grDevices, grid, KernSmooth, lattice, MASS, Matrix, methods, mgcv, nlme, nnet, parallel, rpart, spatial, splines, stats, stats4, survival, tcltk, tools, utils</em></p></li>
@@ -490,7 +496,7 @@ Windows server<div class="sd-summary-down docutils">
 </summary><div class="sd-summary-content sd-card-body docutils">
 <p class="sd-card-text"><img alt="EC2_windows" src="_images/cac_ec2_windows.png" />
 It is a <a class="reference external" href="https://instances.vantage.sh/aws/ec2/r5.8xlarge">r5.8xlarge</a> instance with 32 cores and 256 GB RAM. It is a Windows 2022 server without any pre-installed software.
-It is accessible through Remote Desktop (RDP) connection. There is no direct <strong>Open</strong> link to it like for the Linux server.  If you click on the “Instance ID” you can find the address of the server. The access credentials are the full Azure AD email and password.</p>
+It is accessible through Remote Desktop (RDP) connection on port 3389 tunneling through a bastion host. There is no direct <strong>Open</strong> link to it like for the Linux server.  If you click on the <strong>Instance ID</strong> you can find the address of the server. The access credentials are the full Azure AD email and password.</p>
 </div>
 </details></section>
 <section id="amazon-s3">
