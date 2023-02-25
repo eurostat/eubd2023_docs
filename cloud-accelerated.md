@@ -62,7 +62,12 @@ The status can be *stopped, pending, running* or *stopping*.
 
 ![EC2_linux](img/cac_ec2_linux.png)
 
-It is a [g5.4xlarge](https://instances.vantage.sh/aws/ec2/g5.4xlarge) instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. It is an Ubuntu 20.04.4 LTS Linux server with a data science image on it that is accessible under the **Open** button when it is blue.
+It is a [g5.4xlarge](https://instances.vantage.sh/aws/ec2/g5.4xlarge) instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. It is an Ubuntu 20.04.4 LTS Linux server with a data science image on it and it is accessible with 3 options:
+ 1. The simplest way is to click on the **Open** button when it is blue and it open a web intarface in a new window.
+ 2. Through [bastion host](https://ec-europa.github.io/digit-dataplatform/user_documentation/bastion_host_connection/)
+ 3. Through [AWS client VPN](https://ec-europa.github.io/digit-dataplatform/user_documentation/aws_client_vpn/)  
+ 
+If you want to use option 2 or 3 you can find the internal address of the server under the link of the **Instance ID**.  
 
 The data science image contains:
  - an RStudio server with R 4.2.0 and the following packages: *base, boot, class, cluster, codetools, compiler, datasets, foreign, graphics, grDevices, grid, KernSmooth, lattice, MASS, Matrix, methods, mgcv, nlme, nnet, parallel, rpart, spatial, splines, stats, stats4, survival, tcltk, tools, utils*  
@@ -78,7 +83,7 @@ The access credentials are the the login name of the Azure AD email and password
 
 ![EC2_windows](img/cac_ec2_windows.png)
 It is a [r5.8xlarge](https://instances.vantage.sh/aws/ec2/r5.8xlarge) instance with 32 cores and 256 GB RAM. It is a Windows 2022 server without any pre-installed software. 
-It is accessible through Remote Desktop (RDP) connection. There is no direct **Open** link to it like for the Linux server.  If you click on the "Instance ID" you can find the address of the server. The access credentials are the full Azure AD email and password.    
+It is accessible through Remote Desktop (RDP) connection on port 3389 tunneling through a bastion host. There is no direct **Open** link to it like for the Linux server.  If you click on the **Instance ID** you can find the address of the server. The access credentials are the full Azure AD email and password.    
  ```
 
 ### Amazon S3
