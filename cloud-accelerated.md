@@ -65,9 +65,9 @@ The status can be *stopped, pending, running* or *stopping*.
 It is a [g5.4xlarge](https://instances.vantage.sh/aws/ec2/g5.4xlarge) instance with 16 cores, 64 GB RAM and with an NVIDIA A10G GPU. It is an Ubuntu 20.04.4 LTS Linux server with a data science image on it and it is accessible with 3 options:
  1. The simplest way is to click on the **Open** button when it is blue and it open a web intarface in a new window.
  2. Through [bastion host](https://ec-europa.github.io/digit-dataplatform/user_documentation/bastion_host_connection/)
- 3. Through [AWS client VPN](https://ec-europa.github.io/digit-dataplatform/user_documentation/aws_client_vpn/)  
+ 3. In exceptional cases when point 2 does not work it is possible through [AWS client VPN](https://ec-europa.github.io/digit-dataplatform/user_documentation/aws_client_vpn/)  
  
-If you want to use option 2 or 3 you can find the internal address of the server under the link of the **Instance ID**.  
+If you want to use option 2 or 3 you can find the internal address of the server under the link of the **Instance ID**. The IP address of the bastion host will be provided on request.  
 
 The data science image contains:
  - an RStudio server with R 4.2.0 and the following packages: *base, boot, class, cluster, codetools, compiler, datasets, foreign, graphics, grDevices, grid, KernSmooth, lattice, MASS, Matrix, methods, mgcv, nlme, nnet, parallel, rpart, spatial, splines, stats, stats4, survival, tcltk, tools, utils*  
