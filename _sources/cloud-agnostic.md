@@ -103,6 +103,7 @@ For the PostgreSQL configuration you have to provide:
  - if it is shared or private
  - the DSL of your group - there is only one possibility for your group
  - you have to select the configuration - the **Micro**, **Small**, **Medium**, **Large** give you predefined resources, with the **Custom** you can change some of them if the presets do not work for you (make sure to include the resource units - `m` for CPU & `Mi` for memory)
+ - the **default username and database name** is `postgres`
  ```
 
  ```{dropdown} RStudio v4.2.2
@@ -114,7 +115,7 @@ For the RStudio configuration you have to provide:
  - you have to select the configuration - the **Micro**, **Small**, **Medium**, **Large** give you predefined resources, with the **Custom** you can change some of them if the presets do not work for you (make sure to include the resource units - `m` for CPU & `Mi` for memory)
  - you have to select the storage (NFS PVC name) - there is only one possibility for your group 
  - the list of pre-installed packages: *abind, askpass, assertthat, aws.s3, aws.signature, backports, base64enc, bibtex, bit, bit64, blob, brew, broom, bslib, cachem, callr, cellranger, classInt, cli, clipr, colorspace, commonmark, config, countrycode, cpp11, crayon, crosstalk, curl, data.table, DBI, dbplyr, dichromat, digest, docopt, dplyr, dtplyr, e1071, ellipsis, eurostat, evaluate, fansi, farver, fastmap, fontawesome, forcats, forge, fs, gargle, generics, geojsonsf, geometries, ggplot2, giscoR, globals, glue, googledrive, googlesheets4, gridExtra, gtable, haven, here, highr, hms, htmltools, htmlwidgets, httpuv, httr, ids, isoband, jquerylib, jsonify, jsonlite, knitr, labeling, later, lazyeval, leafem, leaflet, leaflet.providers, leafpop, leafsync, lifecycle, littler, lubridate, lwgeom, magrittr, mapview, markdown, memoise, mime, modelr, munsell, openssl, pillar, pkgconfig, plogr, plyr, png, prettyunits, processx, progress, promises, proxy, ps, purrr, r2d3, R6, rapidjsonr, rappdirs, raster, RColorBrewer, Rcpp, readr, readxl, RefManageR, regions, rematch, rematch2, reprex, restatapi, rJava, RJDemetra, rjson, rlang, rmarkdown, RPostgres, rprojroot, rsdmx, rstudioapi, rvest, s2, sass, satellite, scales, selectr, servr, sf, sfheaders, shiny, shinydashboard, sourcetools, sp, sparklyr, stars, stringi, stringr, svglite, sys, systemfonts, terra, tibble, tidyr, tidyselect, tidyverse, timechange, tinytex, tmap, tmaptools, tzdb, units, utf8, uuid, vctrs, viridis, viridisLite, vroom, webshot, widgetframe, withr, wk, xfun, XML, xml2, xtable, yaml, base, boot, class, cluster, codetools, compiler, datasets, foreign, graphics, grDevices, grid, KernSmooth, lattice, MASS, Matrix, methods, mgcv, nlme, nnet, parallel, rpart, spatial, splines, stats, stats4, survival, tcltk, tools, utils*
- 
+  - the **default username** is `rstudio`
  ``` 
 
  ```{dropdown} Apache Spark v3.2.1
