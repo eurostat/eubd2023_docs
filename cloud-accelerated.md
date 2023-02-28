@@ -92,7 +92,7 @@ It is accessible through Remote Desktop (RDP) connection on port 3389 tunneling 
 
 ### Amazon S3
 
-Under the **Amazon S3** you have the name of the buckets available to you. There is a read only bucket with a source data and a bucket with the name of your team where you can save intermediate results. The buckets are accessible from both environments (Cloud Agnostic Datalab and Cloud Accelerated Datalab). There is also a link to open the AWS console to view the S3 buckets, but **in the console no actions can be done**. 
+Under the **Amazon S3** you have the name of the buckets available to you. There is a read only bucket with the name **ecdataplatform-horizontal-read-only-bucket** containing the source data and a bucket with the name of your team where you can save intermediate results. The buckets are accessible from both environments (Cloud Agnostic Datalab and Cloud Accelerated Datalab). There is also a link to open the AWS console to view the S3 buckets, but **in the console no actions can be done**. 
 
 ![S3](img/cac_s3.png)
 
