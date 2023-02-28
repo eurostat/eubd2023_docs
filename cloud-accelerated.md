@@ -25,6 +25,10 @@ There you have to use the provided Azure AD login credentials which you received
 
 ![Azure AD login](img/azure_ad.png)
 
+For the first time login you have to enter your private email address that is used in MS Teams. 
+
+![Azure AD login update](img/cac_login_update.png)
+
 ## Home
 
 After successful login you arrive at the home screen of the Cloud Accelerated Datalab.
