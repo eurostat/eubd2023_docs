@@ -164,6 +164,7 @@ The Cloud Agnostic Datalab has the following restrictions:
  - Don’t update services’ version manually/from the UI
  - No root access for JupyterLab and RStudio
  - Apache Superset does not able to connect to database if the browser is using incognito mode
+ - Apache Superset First name & Last name field values must not contain a space character (use an underscore or single word)
  - Not all libraries are installed, some libraries can be installed by the user if it does not require root access
  - Simultaneous access to the shared service of RStudio is limited, only one person can be connected to it
  - The storage quota of the DSL is not validated against its limits
