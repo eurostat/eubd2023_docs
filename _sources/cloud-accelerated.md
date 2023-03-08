@@ -9,9 +9,6 @@ The Cloud Accelerated Datalab is web service to easily manage the cloud-based re
 It can be used if the services in the Cloud Agnostic Datalab does not fulfill your needs. For example, you need to leverage GPU power to run computationally expensive data processing/ML tasks or you need root access to install a specific tool/software. Also this is the place where you can get temporary AWS access credentials to have programmatic access to the S3 Buckets of the hackathon.
 
 
-The Cloud Accelerated Datalab is available under this address: <a href="https://portal.accelerated.hackathon.ecdp.tech.ec.europa.eu" target="_blank">
-https://portal.accelerated.hackathon.ecdp.tech.ec.europa.eu</a>
-
 ## Login
 
 To access the Login page you have click on the **Log In** button
